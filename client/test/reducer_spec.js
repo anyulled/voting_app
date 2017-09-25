@@ -1,4 +1,4 @@
-import {List, Map, fromJS} from "immutable";
+import {fromJS, List, Map} from "immutable";
 import {expect} from "chai";
 import reducer from "../src/reducer";
 import {describe, it} from "mocha";

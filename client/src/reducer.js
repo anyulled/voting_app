@@ -1,19 +1,17 @@
-import {Map, List} from "immutable";
+import {List, Map} from "immutable";
 
-function setState(state, newState) {
-    return state.merge(newState);
-}
+const setState = (state, newState) => state.merge(newState);
 
-function vote(state, entry) {
+const vote = (state, entry) => {
     const currentPair = state.getIn(["vote", "pair"]);
     if (currentPair && currentPair.includes(entry)) {
         return state.set("hasVoted", entry);
     } else {
         return state;
     }
-}
+};
 
-function resetVote(state) {
+const resetVote = (state) => {
     const hasVoted = state.get("hasVoted");
     const currentPair = state.getIn(["vote", "pair"], List());
     if (hasVoted && !currentPair.includes(hasVoted)) {
@@ -21,9 +19,9 @@ function resetVote(state) {
     } else {
         return state;
     }
-}
+};
 
-export default function (state = Map(), action) {
+export default (state = Map(), action) => {
     switch (action.type) {
         case "SET_STATE":
             return resetVote(setState(state, action.state));
@@ -32,4 +30,4 @@ export default function (state = Map(), action) {
         default:
             return state;
     }
-}
+};

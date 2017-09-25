@@ -1,10 +1,10 @@
 /**
  * Created by anyulled on 9/12/16.
  */
-import {Map, fromJS} from "immutable"
-import {expect} from "chai"
+import {fromJS, Map} from "immutable";
+import {expect} from "chai";
 
-import reducer from "../src/reducer"
+import reducer from "../src/reducer";
 import {describe} from "mocha";
 
 describe("reducer", () => {

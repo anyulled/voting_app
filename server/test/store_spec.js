@@ -1,9 +1,9 @@
 /**
  * Created by anyulled on 9/12/16.
  */
-import {Map, fromJS} from "immutable"
-import {expect} from "chai"
-import makeStore from "../src/store"
+import {fromJS, Map} from "immutable";
+import {expect} from "chai";
+import makeStore from "../src/store";
 import {describe} from "mocha";
 
 describe("store", () => {

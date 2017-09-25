@@ -3,9 +3,9 @@
  */
 import {List, Map} from "immutable";
 
-function getWinners(vote) {
+const getWinners = vote => {
     if (!vote) return [];
-    const [a,b] = vote.get("pair");
+    const [a, b] = vote.get("pair");
     const aVotes = vote.getIn(["tally", a], 0);
     const bVotes = vote.getIn(["tally", b], 0);
     if (aVotes > bVotes) {
@@ -17,15 +17,13 @@ function getWinners(vote) {
     else {
         return [a, b];
     }
-}
+};
 
 export const INITIAL_STATE = Map();
 
-export function setEntries(state, entries) {
-    return state.set("entries", List(entries));
-}
+export const setEntries = (state, entries) => state.set("entries", List(entries));
 
-export function next(state) {
+export const next = state => {
     const entries = state.get("entries")
         .concat(getWinners(state.get("vote")));
     if (entries.size === 1) {
@@ -38,11 +36,10 @@ export function next(state) {
             entries: entries.skip(2)
         });
     }
-}
+};
 
-export function vote(voteState, entry) {
-    return voteState.updateIn(
+export const vote = (voteState, entry) =>
+    voteState.updateIn(
         ["tally", entry], 0, tally => ++tally
     );
-}
 

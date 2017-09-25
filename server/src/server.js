@@ -3,7 +3,7 @@
  */
 import Server from "socket.io";
 
-export default function startServer(store) {
+export default (store) => {
     const io = new Server().attach(8090);
 
     //emit the state of the store whenever it changes
@@ -17,4 +17,4 @@ export default function startServer(store) {
         //clients emit actions to the store
         socket.on("action", store.dispatch.bind(store));
     });
-}
+};
