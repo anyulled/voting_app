@@ -19,19 +19,19 @@
     ]
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "chai": "^4.1.2",
-    "chai-immutable": "^1.6.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "chai": "4.1.2",
+    "chai-immutable": "1.6.0",
     "eslint": "^4.7.2",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-react": "^7.3.0",
-    "mocha": "^3.5.3"
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-react": "7.3.0",
+    "mocha": "3.5.3"
   },
   "dependencies": {
-    "immutable": "^3.8.1",
-    "redux": "^3.7.2",
-    "socket.io": "^2.0.3"
+    "immutable": "3.8.2",
+    "redux": "3.7.2",
+    "socket.io": "2.0.3"
   }
 }
