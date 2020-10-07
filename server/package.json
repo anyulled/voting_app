@@ -23,7 +23,7 @@
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "chai": "4.2.0",
-    "chai-immutable": "1.6.0",
+    "chai-immutable": "2.1.0",
     "eslint": "4.18.2",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-react": "7.21.3",
