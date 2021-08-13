@@ -29,7 +29,7 @@
     "babel-preset-react": "6.24.1",
     "chai": "4.3.4",
     "chai-immutable": "2.1.0",
-    "jsdom": "16.6.0",
+    "jsdom": "17.0.0",
     "mocha": "9.0.3",
     "react-hot-loader": "4.13.0",
     "webpack": "5.45.1",
