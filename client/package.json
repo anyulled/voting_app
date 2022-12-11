@@ -30,7 +30,7 @@
     "chai": "4.3.7",
     "chai-immutable": "2.1.0",
     "jsdom": "20.0.3",
-    "mocha": "10.1.0",
+    "mocha": "10.2.0",
     "react-hot-loader": "4.13.1",
     "webpack": "5.75.0",
     "webpack-dev-server": "4.11.1"
