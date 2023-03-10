@@ -36,7 +36,7 @@
     "webpack-dev-server": "4.11.1"
   },
   "dependencies": {
-    "immutable": "4.2.4",
+    "immutable": "4.3.0",
     "react": "latest",
     "react-addons-test-utils": "15.6.2",
     "react-dom": "latest",
