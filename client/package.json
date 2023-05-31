@@ -43,6 +43,6 @@
     "react-redux": "8.0.7",
     "react-router": "6.11.2",
     "redux": "4.2.1",
-    "socket.io-client": "4.6.1"
+    "socket.io-client": "4.6.2"
   }
 }
