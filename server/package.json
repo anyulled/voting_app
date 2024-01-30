@@ -30,7 +30,7 @@
     "mocha": "10.2.0"
   },
   "dependencies": {
-    "immutable": "4.3.4",
+    "immutable": "4.3.5",
     "redux": "5.0.1",
     "socket.io": "4.7.4"
   }
