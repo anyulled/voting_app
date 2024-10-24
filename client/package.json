@@ -27,7 +27,7 @@
     "babel-loader": "9.2.1",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
-    "chai": "5.1.1",
+    "chai": "5.1.2",
     "chai-immutable": "2.1.0",
     "jsdom": "25.0.0",
     "mocha": "10.7.3",
