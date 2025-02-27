@@ -41,7 +41,7 @@
     "react-addons-test-utils": "15.6.2",
     "react-dom": "19.0.0",
     "react-redux": "9.2.0",
-    "react-router": "6.29.0",
+    "react-router": "6.30.0",
     "redux": "5.0.1",
     "socket.io-client": "4.8.1"
   }
