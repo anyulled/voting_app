@@ -33,7 +33,7 @@
     "mocha": "11.1.0",
     "react-hot-loader": "4.13.1",
     "webpack": "5.99.9",
-    "webpack-dev-server": "5.2.1"
+    "webpack-dev-server": "5.2.2"
   },
   "dependencies": {
     "immutable": "5.1.1",
